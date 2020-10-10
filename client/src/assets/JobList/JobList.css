@@ -1,0 +1,107 @@
+.nav-menu{
+    
+    
+    list-style: none;
+    margin-right: 0px;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-menu li{
+    width: 95px;
+   
+}
+
+@media screen and (max-width: 767px) {
+    .nav-menu{
+        display: none;
+    }
+    .active{
+       
+        line-height: 200%;
+        text-align: center;
+        list-style: none;
+        margin: auto;
+        margin-right: 10px;
+        width: 90vw;
+        padding-left: 40vw;
+        height: 100px;
+        background-color: rgba(28, 40, 61, 0.4);
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+
+  .inputs{
+    width: 50em;
+    height: 2em;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 2px solid #b1abe9;
+    width: 70%;
+    margin: 15px;
+    margin-top: 0px;
+    outline: none;
+  }
+
+  .inputs option{
+      margin-top: 0px;
+  }
+#myForm label{
+      width: 150px;
+      text-align: end;
+}
+@media (max-width: 950px){
+    #myForm label{
+        text-align: start;
+  }
+  .inputs{
+      width: 54vw;
+  }
+}
+@media (min-width:651px) and (max-width:800px){
+    .inputs{
+        width: 46vw;
+    }
+  }
+  @media (max-width: 642px){
+  .inputs{
+      width: 65vw;
+  }
+}
+
+@media (max-width: 300px){
+    .inputs{
+        width: 60vw;
+    }
+  }
+#myform{
+    line-height: 20%;
+}
+
+.sbtn{
+    
+    width: 10em;  
+    height: 2.6em;
+    padding-left: 7px;
+    
+    border-radius: 10px;
+    border: 2px solid #f8f6f6;
+    background-color: rgb(165, 153, 229);
+    color:  rgb(9, 35, 56);
+    font-weight: 800;
+    cursor: pointer;
+    
+}
+
+#btncontainer{
+    text-align: center;
+    position: relative;
+    bottom: 5;
+}
+
+.maindiv p{
+    font-size: 15px;
+}

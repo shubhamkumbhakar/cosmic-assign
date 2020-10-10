@@ -1,0 +1,215 @@
+#joblist{
+    text-align: center;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+}
+#h1{
+    flex: 97%;
+}
+#btn{
+    font-weight: 900;
+    font-size: 25px;
+    flex: 3%;
+    color: skyblue;
+    height: 0px;
+    border: none;
+    background-color: inherit;
+    display: inline-block;
+    background-color: rgba(19, 28, 69, 0);
+}
+.modalo{
+    
+        
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-color: rgba(19, 28, 69, 0.4);
+       
+      
+}
+.modal{
+    color: #fff;
+    position: absolute;
+    top: 25px;
+    left: 140px;
+    right: 140px;
+    bottom: 50px;
+    border: 1px solid #ccc;
+    background: rgba(94, 10, 66, 0.9);
+    overflow: auto;
+    
+    border-radius: 14px;
+    outline: none;
+    padding: 20px;
+}
+
+@media (max-width:650px){
+  .modal{
+    left: 20px;
+    right: 20px;
+  }
+}
+
+.navbar {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    padding: 0.75rem 2rem;
+    background-color: rgba(30, 20, 43, 0.9);
+    
+  }
+  .navheader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  .navicon {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .navbuttons {
+    border: none;
+    color: white;
+    padding: 5px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+
+  }
+
+  .navheader h2{
+    
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    margin-left: 1px;
+    text-align: start;
+    width: 75vw;
+    text-decoration: none;
+    list-style-type: none;
+}
+#right{
+    width: 170px;
+}
+@media (min-width: 1080px){
+     .navheader h2{
+         width: 82vw;
+     }
+}
+@media screen and (min-width: 768px) {
+    .navbtn {
+      display: none;
+    }
+    .navcenter {
+      max-width: 1170px;
+      
+      display: flex;
+    }
+    .navbuttons {
+      height: auto;
+      display: flex;
+      
+    }
+    
+    
+  }
+ 
+
+  #spacing{
+      height: 70px;
+      
+  }
+
+
+  #section{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .item{
+    background-color: #d3ebf2;
+    width: 300px;
+    height: auto;
+    border: 2px solid #f2e277;
+    margin: 20px;
+    border-radius: 14px;
+    box-shadow: 0 50px 70px -40px rgba(0, 0, 0, 0.8);
+  }
+
+  .item h3{
+    
+    padding: 7px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color:#b05b99;
+    color: #fff;
+    height: auto;
+  }
+
+  .p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 7px;
+  }
+
+  
+  
+  .footbtncontainer {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    display: flex;
+  }
+  .footbtn {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8px;
+  }
+
+  .footbtn button{
+    width: 10em;  
+    height: 2.4em;
+    padding-left: 7px;
+    
+    border-radius: 8px;
+    border: 2px solid #f8f6f6;
+    background-color: #211761;
+    color:  #fff;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+  @media (max-width:530px){
+    #section{
+      margin-left: auto;
+    }
+    .item{
+      flex: 50%;
+      
+    }
+  }
+
+  @media(width: 540px){
+    #section{
+      margin-left: 120px;
+    }
+  }

@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Full-stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyderabad",
+        "email": "abc@cosmictech.co",
+        "preference": "2 months",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 2,
+        "title": "PHP Developer",
+        "description": "netflix and chill",
+        "salary": 1200000,
+        "location": "bangalore",
+        "email": "xyz@cosmictech.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 3,
+        "title": "stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyd",
+        "email": "abc@cosch.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 4,
+        "title": "Full-stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyderabad",
+        "email": "abc@cosmictech.co",
+        "preference": "2 months",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 6,
+        "title": "PHP Developer",
+        "description": "netflix and chill",
+        "salary": 1200000,
+        "location": "bangalore",
+        "email": "xyz@cosmictech.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 5,
+        "title": "stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyd",
+        "email": "abc@cosch.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 7,
+        "title": "Full-stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyderabad",
+        "email": "abc@cosmictech.co",
+        "preference": "2 months",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 8,
+        "title": "PHP Developer",
+        "description": "netflix and chill",
+        "salary": 1200000,
+        "location": "bangalore",
+        "email": "xyz@cosmictech.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    },
+    {
+        "id": 9,
+        "title": "stack Developer",
+        "description": "Web Developing and chill",
+        "salary": 1000000,
+        "location": "Hyd",
+        "email": "abc@cosch.co",
+        "preference": "immediate",
+        "deadline": "2020-10-23" 
+    }
+]
