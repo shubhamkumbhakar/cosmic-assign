@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 8080;
 
 const routes = require('./routes/api')
 
-const MONGODB_URL = 'mongodb+srv://cosmicassign:asdfghjkl@cosmicdb.mlhhz.mongodb.net/database?retryWrites=true&w=majority'
+const MONGODB_URL = '<hidden for security purpose>'
 
 mongoose.connect(MONGODB_URL,{
     useNewUrlParser: true,
